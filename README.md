@@ -6,7 +6,7 @@ SQL and PHP are used conjointly to allow for viewing, adding, editing and deleti
 Uses the ORM practice to make the database manipulations more intuituve
 <br><br>
 Here are some screenshots of the user side and the admin control side:
-![alt text](screens/screenshot1.jpg?raw=true "Screenshot")
+![alt text](screens/screenshot2.jpg?raw=true "Screenshot")
 <br>
 And on the admin side:
-![alt text](screens/screenshot2.jpg?raw=true "Screenshot")
+![alt text](screens/screenshot1.jpg?raw=true "Screenshot")
