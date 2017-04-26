@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica|Acme|Montserrat|Roboto+Slab');
+
+html{
+  overflow-x: hidden;
+}
+body{
+  text-align:center;
+  font-family:'Roboto Slab';
+}
+body:before{
+  content:'';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background:url('../res/back.jpg') left no-repeat;
+  z-index: -1;
+  opacity: 0.3;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+h1{
+  font-family: 'Acme';
+}
+button{
+  border: none;
+}
+.supertitle{
+  font-family: 'Aclonica';
+  font-size: 70px;
+}
+.article-div{
+  background-color: white;
+  opacity: 0.9;
+  max-width:100%;
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 1px 4px 20px 1px black;
+  margin-bottom: 40px;
+  padding: 18px;
+}
+.pubDate{
+  width:100%;
+  position: relative;
+  text-align:left;
+  top:14px;
+  left: 15px;
+}
+.button{
+  display: inline-block;
+  background-color: #4c3838;
+  padding: 20px;
+  color: white;
+  box-shadow: 1px 4px 10px 1px black;
+  margin: 40px 0px 40px 10px;
+  cursor: pointer;
+}
+.button>a{
+  color: white;
+}
+.site-admin{
+  font-weight: bold;
+  text-decoration: underline;
+  color: #4c3838;
+  font-size: 18px;
+}
+.input{
+  font-size: 18px;
+  width: 80%;
+  height: 30px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.articleTitle{
+  font-family: 'Montserrat';
+}
+.publication{
+  width: 300px;
+  max-width: 100%;
+  left:0;
+}
+.article-container{
+  width: 600px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+#articleTitle{
+  font-size: 18px;
+  width: 60%;
+  height: 30px;
+  margin: 0 auto;
+}
+#articleSummary{
+  font-size: 18px;
+  width: 90%;
+  height: 100px;
+}
+#articleContent{
+  font-size: 18px;
+  width: 90%;
+  height: 400px;
+  margin-bottom: 30px;
+}
+.summary{
+  font-size: 20px;
+  font-style: italic;
+  margin: 50px 0px 50px 0px;
+}
+.content{
+  font-size: 25px;
+  margin: 50px 0px 50px 0px;
+}
