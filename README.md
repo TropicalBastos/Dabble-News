@@ -1,5 +1,5 @@
 # Dabble-News
-A hand coded CMS in PHP that allows admins to publish articles and users to read them. 
+A hand coded and mobile-responsive CMS in PHP that allows admins to publish articles and users to read them. 
 SQL and PHP are used conjointly to allow for viewing, adding, editing and deleting articles.
 
 ### ORM Object Relational Mapping
